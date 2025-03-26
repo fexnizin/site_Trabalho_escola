@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    align-items: center;
+}
+#corpo{
+    background-color: rgb(100, 100, 100);
+    transition: 0.5 ease;
+}
+.menu{
+    display: flex;
+    border-radius:10px;
+    margin-right: 150px;
+}
+.logo{
+    width: 600px;
+    flex:2%;
+}
+.logo img{
+    width:140px;
+}
+.links{
+    flex:80%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.links a{
+    color:rgb(13, 34, 150);
+    font-size:21px;
+    margin-left:0px;
+    margin-right:120px;
+ text-decoration: none;
+ font-family: "Boldonse", system-ui;
+ font-weight: 500;
+ font-style: normal;
+ font-family: "Noto Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal;
+transition:0.1s ease-in-out;
+}
+.links a:hover{
+    font-size:25px;
+    border-bottom:5px solid rgb(13, 34, 150);
+    border-radius:2px;
+}
+.aviso{
+    display:block;
+    height:600px;
+    width:400px;
+    background-color: rgb(32, 12, 121);
+    position:absolute;
+    margin-left:750px;
+    margin-top:90px;
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+}
+.aviso p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-style: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin:20px;
+}
+.aviso h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-style: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.aviso img{
+    margin-top:30px;
+    width:300px;
+    border-radius: 10px;
+}
+.texto{
+    background-size: cover;
+    background-image: url("img/gif_texto.gif");
+    margin-top: 100px;
+    display: block;
+    margin-left: 500px;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+    align-content: center;
+    font-style: normal;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width:900px;
+    box-shadow: 10px 10px 20px;
+    border-radius:10px;
+}
+.texto h2{
+    color:rgb(113, 138, 113);
+    font-size:45px;
+}
+.texto p{
+    margin:20px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.meio{
+    align-items: center;
+}
+
+@media (max-width:768px){
+    .menu{
+        width: max-content;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .texto{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
